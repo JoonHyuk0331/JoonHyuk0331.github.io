@@ -33,13 +33,13 @@ marketing:
 
 header:
   navbar:
+    enable: true
     logo:
       # Logo text
-      text: "logogogogo"
+      text: ""
       # Logo filename in `assets/media/` folder
-      filename: "free-icon-png-file-1829050.svg"
-    show_logo: true
-    enable: true
+      filename: "logo.svg"
+    
     align: r
     show_language: false
     show_theme_chooser: true
