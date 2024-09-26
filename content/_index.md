@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Wowchemy가나다라마바사아자차카타파하
         Research Group
       image:
         filename: welcome.jpg
