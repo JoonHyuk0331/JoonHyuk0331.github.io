@@ -39,8 +39,10 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-    
-    align: r
+    #add test
+    fixed_to_top: true
+    align: "center"
+    blox: "navbar"
     show_language: false
     show_theme_chooser: true
     show_day_night: true
