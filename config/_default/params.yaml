@@ -40,7 +40,7 @@ header:
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     #add test
-    fixed_to_top: true
+    #fixed_to_top: true
     align: l
     blox: "navbar"
     show_language: false
