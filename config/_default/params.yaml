@@ -41,7 +41,7 @@ header:
       filename: "logo.svg"
     #add test
     fixed_to_top: true
-    align: "center"
+    align: l
     blox: "navbar"
     show_language: false
     show_theme_chooser: true
