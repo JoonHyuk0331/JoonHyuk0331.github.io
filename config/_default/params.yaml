@@ -38,9 +38,7 @@ header:
       # Logo text
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
-      width: "300"  # 로고의 실제 크기로 지정
-      height: "65"  # 필요에 따라 수정 가능
+      filename: "icon.png"
     #add test
     #fixed_to_top: true
     align: r
