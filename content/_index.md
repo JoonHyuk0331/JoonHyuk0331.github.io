@@ -9,7 +9,7 @@ sections:
     content:
       title: |
         Wowchemy가나다라마바사아자차카타파하
-        Research Group
+        Research Group김준혁
       image:
         filename: welcome.jpg
       text: |
