@@ -14,7 +14,7 @@ role: Student of Computer engineering
 
 # Organizations/Affiliations
 organizations:
-  - name: JeonBok University
+  - name: JeonBuk University
     url: 'https://jbnu.macs.or.kr/'
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,7 +27,7 @@ interests:
 education:
   courses:
     - course: Student in Artificial Intelligence
-      institution: JeonBok University
+      institution: JeonBuk University
       year: ~2026
 
 # Social/Academic Networking
@@ -37,7 +37,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'joonlife0901@gmail.com'
   - icon: github
     icon_pack: fab
     link: https://github.com/JoonHyuk0331
@@ -62,6 +62,4 @@ user_groups:
   - Researchers
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+hello.
