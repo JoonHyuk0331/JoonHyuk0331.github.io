@@ -42,9 +42,9 @@ header:
     #fixed_to_top: true
     #마우스 호버버튼추가
     button:
-    enable: true
-    text: "Go Google"
-    url: "https://www.google.co.kr/?hl=ko"
+      enable: true
+      text: "Go Google"
+      url: "https://www.google.co.kr/?hl=ko"
 
     align: "right"
     blox: "navbar"
