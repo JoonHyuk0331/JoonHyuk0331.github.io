@@ -35,20 +35,21 @@ marketing:
 header:
   navbar:
     enable: true
+    align: "center"
+    blox: "navbar"
+    fixed_to_top: true
     logo:
       # Logo text
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-    #fixed_to_top: true
     #마우스 호버버튼추가
     button:
       enable: true
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
 
-    align: "right"
-    blox: "navbar"
+  
     show_language: false
     show_theme_chooser: true
     show_day_night: true
