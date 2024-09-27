@@ -41,10 +41,10 @@ header:
       filename: "logo.svg"
     #fixed_to_top: true
     #마우스 호버버튼추가
-    button:
+     button:
       enable: true
-      text: "Go Google"
-      url: "https://www.google.co.kr/?hl=ko"
+      text: "Get Started"
+      url: "https://hugoblox.com/templates/"
 
     align: "right"
     blox: "navbar"
