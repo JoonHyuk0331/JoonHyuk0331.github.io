@@ -39,8 +39,13 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-    #add test
     #fixed_to_top: true
+    #마우스 호버버튼추가
+    button:
+    enable: true
+    text: "Go Google"
+    url: "https://www.google.co.kr/?hl=ko"
+
     align: "right"
     blox: "navbar"
     show_language: false
