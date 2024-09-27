@@ -10,7 +10,7 @@ appearance:
   theme_day: minimal
   font: native
   font_size: L
-  color: indigo
+  color: red
 
 # SEO
 
