@@ -1,11 +1,11 @@
 ---
-title: People
+title: Who am i
 date: 2022-10-24
 
 type: landing
 
 sections:
-  - block: people
+  - block: Who am i
     content:
       title: Meet the Team
       # Choose which groups/teams of users to display.
