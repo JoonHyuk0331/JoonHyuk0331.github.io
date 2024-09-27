@@ -1,11 +1,11 @@
 ---
-title: whomai
+title: People
 date: 2022-10-24
 
 type: landing
 
 sections:
-  - block: whoami
+  - block: people
     content:
       title: Meet the Team
       # Choose which groups/teams of users to display.
