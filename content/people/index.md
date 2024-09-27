@@ -1,5 +1,5 @@
 ---
-title: Who am i
+title: whomai
 date: 2022-10-24
 
 type: landing
