@@ -73,20 +73,20 @@ sections:
         text_color_light: true
 
   - block: collection
-      content:
-        title: Latest Team Project
-        subtitle:
-        text:
-        count: 3
-        filters:
-          author: ''
-          category: ''
-          exclude_featured: false
-          publication_type: ''
-          tag: ''
-        offset: 0
-        order: desc
-        page_type: team
+    content:
+      title: Latest Team Project
+      subtitle:
+      text:
+      count: 3
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: team
       design:
         view: community/custom_card
         columns: '2'
