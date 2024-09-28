@@ -3,6 +3,7 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in
 main:
+
   #Introduce
   - name: Introduce
     url: introduce
@@ -13,7 +14,7 @@ main:
     parent: introduce
   - name: Hobby
     url: hobby
-    partent: introduce
+    parent: introduce
 
   #Skill
   - name: Skill
@@ -25,7 +26,7 @@ main:
     parent: skill
   - name: Programing Language
     url: programing language
-    parant: skill
+    parent: skill
 
   #Experience
   - name: Experience
