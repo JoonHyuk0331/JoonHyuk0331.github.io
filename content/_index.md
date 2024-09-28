@@ -16,7 +16,7 @@ sections:
         
         I am a student studying computer science and am interested in web programming.
 
-block: features
+  - block: features
     id: features
     content:
       title: <span style="font-size:75%">Interests</span>
