@@ -3,30 +3,80 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in
 main:
-  - name: Tour
-    url: tour
-    weight: 10
-  - name: News
-    url: post
-    weight: 20
   #Introduce
   - name: Introduce
     url: introduce
     identifier: introduce
-    weight: 30
+    weight: 10
   - name: Who am I
     url: whoami
     parent: introduce
+  - name: Hobby
+    url: hobby
+    partent: introduce
+
+  #Skill
   - name: Skill
     url: skill
-    parent: introduce
+    identifier: skill
+    weight: 20
+  - name: Framework
+    url: framework
+    parent: skill
+  - name: Programing Language
+    url: programing language
+    parant: skill
 
-  - name: Events
-    url: event
+  #Experience
+  - name: Experience
+    url: experience
+    identifier: experience
+    weight: 30
+  - name: Degree
+    url: degree
+    parent: experience
+  - name: Work
+    url: work
+    parent: experience
+  
+  #Project
+  - name: Project
+    url: project
+    identifier: project
     weight: 40
-  - name: Publications
-    url: publication
+  - name: Solo
+    url: solo
+    parent: project
+  - name: Team
+    url: team
+    parent: project
+
+  #License
+  - name: License
+    url: license
+    identifier: license
     weight: 50
-  - name: Contact
-    url: contact
-    weight: 60
+  - name: IT
+    url: it
+    parent: license
+  - name: Language
+    url: language
+    parent: license
+
+
+  #- name: Tour
+  #  url: tour
+  #  weight: 10
+  #- name: News
+  #  url: post
+  #  weight: 20
+  #
+  #- name: Events
+  #  url: event
+  #  weight: 40
+  #- name: Publications
+  #  url: publication
+  #  weight: 50
+  #- name: Contact
+  #  url: contact
+  #  weight: 60
