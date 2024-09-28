@@ -71,6 +71,28 @@ sections:
         color: 'navy'
         # Text color (true=light, false=dark, or remove for the dynamic theme color).
         text_color_light: true
+
+  - block: collection
+      content:
+        title: Latest Team Project
+        subtitle:
+        text:
+        count: 3
+        filters:
+          author: ''
+          category: ''
+          exclude_featured: false
+          publication_type: ''
+          tag: ''
+        offset: 0
+        order: desc
+        page_type: team
+      design:
+        view: community/custom_card
+        columns: '2'
+      advanced:
+        css_style: "text-align: center;"
+
   
   - block: markdown
     content:
