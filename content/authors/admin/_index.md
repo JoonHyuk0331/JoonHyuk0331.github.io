@@ -30,6 +30,35 @@ education:
       institution: JeonBuk University
       year: ~2026
 
+skills:
+  - name: Technical Skills
+    items:
+      - name: Java
+        description: ''
+        percent: 30
+        icon: devicon/java
+      - name: C++
+        description: ''
+        percent: 30
+        icon: devicon/C
+
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera
+
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
