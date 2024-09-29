@@ -10,7 +10,7 @@ design:
 
 # Page sections
 sections:
-  - block: resume-languages
+  - block: languages
     content:
       title: Languages
       username: admin

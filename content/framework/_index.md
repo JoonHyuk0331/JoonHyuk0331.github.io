@@ -11,7 +11,7 @@ design:
 # Page sections
 sections:
 
-  - block: resume-awards
+  - block: awards
     content:
       title: Awards
       username: admin
