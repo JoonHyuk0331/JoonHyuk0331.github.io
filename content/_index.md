@@ -20,75 +20,45 @@ sections:
     content:
       slides:
 
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+      - title: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">coding</span>
+        content: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">study code</span>
         align: center
         background:
           image:
-            filename: sample_images_00.png
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-        link:
-          icon: user
-          icon_pack: fas
-          text: <span style="font-size:60%">Join Us</span>
-          text-color: '#000'
-          url: contact
-
-      - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
-        align: center
-        background:
-          image:
-            filename: sample_images_01.png
+            filename: code1.jpg
             filters:
               brightness: 0.4
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">Healthcare</span>
-        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+      - title: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">AI</span>
+        content: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">learning ai</span>
         align: center
         background:
           image:
-            filename: sample_images_02.png
+            filename: code2.jpg
             filters:
               brightness: 0.4
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">Mathematics</span>
-        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+      - title: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">Cat</span>
+        content: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">Look at the cute cat</span>
         align: center
         background:
           image:
-            filename: sample_images_03.png
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:70%">Development</span>
-        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
-        align: center
-        background:
-          image:
-            filename: sample_images_04.png
+            filename: catimage.jpg
             filters:
               brightness: 0.4
           position: center
           color: '#000'
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
       slide_width: '100px'
       is_fullscreen: false
-      # Automatically transition through slides?
       loop: true
-      # Duration of transition between slides (in ms)
       interval: 3000
+
 
   - block: features
     id: features
