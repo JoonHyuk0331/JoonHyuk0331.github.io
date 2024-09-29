@@ -134,9 +134,9 @@ sections:
         exclude_featured: false
         publication_type: ''
         tag: ''
-      offset: 0
+      offset: 
       order: desc
-      page_type: post
+      page_type: work
     design:
       view: card
       columns: '2'
