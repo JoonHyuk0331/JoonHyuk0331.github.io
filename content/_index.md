@@ -20,8 +20,8 @@ sections:
     content:
       slides:
 
-      - title: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">coding</span>
-        content: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">study code</span>
+      - title: <span style="font-size:70%">coding</span>
+        content: <span style="font-size:70%">study code</span>
         align: center
         background:
           image:
@@ -30,9 +30,15 @@ sections:
               brightness: 0.4
           position: center
           color: '#000'
+        #link:
+        #  icon: user
+        #  icon_pack: fas
+        #  text: <span style="font-size:60%">Join Us</span>
+        #  text-color: '#000'
+        #  url: contact
 
-      - title: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">AI</span>
-        content: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">learning ai</span>
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">learning ai!<span style="font-size:70%">
         align: center
         background:
           image:
@@ -42,8 +48,8 @@ sections:
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">Cat</span>
-        content: <span style="font-size:70%; background-color:rgba(0, 0, 0, 0.5); padding: 10px;">Look at the cute cat</span>
+      - title: <span style="font-size:70%">Cat</span>
+        content: <span style="font-size:70%">Look at the cute cat</span>
         align: center
         background:
           image:
@@ -53,12 +59,14 @@ sections:
           position: center
           color: '#000'
     design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
       slide_width: '100px'
       is_fullscreen: false
+      # Automatically transition through slides?
       loop: true
+      # Duration of transition between slides (in ms)
       interval: 3000
-
 
   - block: features
     id: features
