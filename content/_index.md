@@ -124,7 +124,7 @@ sections:
   
   - block: collection
     content:
-      title: Latest News
+      title: Latest Work
       subtitle:
       text:
       count: 3
@@ -139,7 +139,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      columns: '2'
       background:
         # Choose a color such as from https://html-color-codes.info
         color: 'navy'
@@ -166,11 +166,6 @@ sections:
         columns: '2'
       advanced:
         css_style: "text-align: center;"
-
-  - block: awards
-    content:
-      title: Awards
-      username: admin
 
 
 ---
