@@ -58,7 +58,7 @@ sections:
     content:
       slides:
 
-      - title: <span style="font-size:70%">coding</span>
+      - title: <span class="text-overlay">coding</span>
         content: <span style="font-size:70%">study code</span>
         align: center
         background:
