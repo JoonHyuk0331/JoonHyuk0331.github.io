@@ -9,13 +9,7 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: Java Spring
+      title: SQL developer
       subtitle: .
-      text: Simple Website making is possible using java spring.
-  - block: markdown
-    id: section-2
-    content:
-      title: Selenium
-      subtitle: .
-      text: web crolling is possible using Selelnium with java.
+      text: on setember 20 2024
 ---

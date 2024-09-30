@@ -9,13 +9,7 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: Java
-      subtitle: .
-      text: Simple programming is possible using java.
-  - block: markdown
-    id: section-2
-    content:
-      title: C++
-      subtitle: .
-      text: Simple programming is possible using C++.
+      title: expected to graduate at 2026
+      subtitle: JBNU
+      text: computer engineering
 ---
