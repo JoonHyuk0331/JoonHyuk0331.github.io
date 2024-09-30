@@ -1,23 +1,21 @@
 ---
-title: 'Programing language'
-date: 2024-05-19
+# Page title
+title: My page
+# Page type - we want a landing page (such as a homepage)
 type: landing
 
-design:
-  # Section spacing
-  spacing: '3rem'
-
-# Page sections
+# Your landing page sections - add as many different content blocks as you like
 sections:
-  - block: collection
+  - block: markdown
+    id: section-1
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
-      filters:
-        folders:
-          - programing_language_list
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
+      title: Java
+      subtitle: .
+      text: Simple programming is possible using java.
+  - block: markdown
+    id: section-2
+    content:
+      title: C++
+      subtitle: .
+      text: Simple programming is possible using C++.
 ---
