@@ -21,6 +21,7 @@ marketing:
     org_name: ''
     description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
     twitter: 'GetResearchDev'
+    og_image: 'images\ogicon.png' # 여기에 대표 이미지 경로 추가
   analytics:
     google_analytics: ''
     baidu_tongji: ''
