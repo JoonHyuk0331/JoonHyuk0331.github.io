@@ -24,14 +24,22 @@ interests:
   - Artificial Intelligence
   - Computational Linguistics
 
-goal:
-  - backend web programmer
   
 education:
   courses:
     - course: Student in Artificial Intelligence
       institution: JeonBuk University
       year: ~2026
+
+languages:
+  - language: Korean
+    proficiency: Native
+  - language: English
+    proficiency: Fluent
+
+certifications:
+  - certification: SQLD
+    year: 2024
 
 skills:
   #- name: Technical Skills
@@ -61,6 +69,11 @@ skills:
         description: ''
         percent: 80
         icon: camera
+
+# Personal goals
+goals:
+  - Learn advanced AI techniques
+  - Web backend programmer
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
