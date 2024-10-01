@@ -2,7 +2,7 @@
 title: team project list
 
 # Listing view
-view: community/custom_compact
+view: citation
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
