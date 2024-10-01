@@ -35,8 +35,8 @@ sections:
       directions: 
       contact_links:
         - icon: github
-          icon_pack: fas
-          name: github
+          icon_pack: fab
+          name: go to github page
           link: https://github.com/JoonHyuk0331
           
     
