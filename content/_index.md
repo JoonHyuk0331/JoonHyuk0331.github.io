@@ -15,6 +15,9 @@ sections:
         <br>
         -short introduce-
         I am a student studying computer science and am interested in web programming.
+      button:
+        text: Download Résumé
+        url: uploads/joon_resume.pdf
 
   - block: contact
     content:
