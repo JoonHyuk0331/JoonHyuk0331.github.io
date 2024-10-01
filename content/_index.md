@@ -19,6 +19,12 @@ sections:
         - text: Download Résumé
           url: /uploads/joon_resume.pdf  # 경로 확인
           style: primary  # 버튼 스타일(테마에서 지원하는 경우)
+      cta:
+        label: Get Started
+        url: https://wowchemy.com/templates/
+        #icon_pack: fas
+        #icon: download
+      # Optionally, add an alternative CTA link
 
 
   - block: contact
