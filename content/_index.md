@@ -4,7 +4,6 @@ title:
 date: 2022-10-24
 type: landing
 
-sections:
   - block: hero
     content:
       title: |
@@ -15,24 +14,11 @@ sections:
         <br>
         -short introduce-
         I am a student studying computer science and am interested in web programming.
-      button:
-        text: Download Résumé
-        url: uploads/joon_resume.pdf
+      buttons:
+        - text: Download Résumé
+          url: /uploads/joon_resume.pdf  # 경로 확인
+          style: primary  # 버튼 스타일(테마에서 지원하는 경우)
 
-  - block: biography
-    content:
-      username: admin
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Résumé
-        url: uploads/joon_resume.pdf
-    design:
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        #filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-      biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
 
   - block: contact
     content:
