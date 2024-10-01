@@ -12,7 +12,13 @@ sections:
       title: cpu web programing rebuild
       subtitle: .
       text: We recreated a club homepage website with club members using rest api and react.
-      design:
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
       columns: '1'
       background:
         image: 
@@ -24,6 +30,6 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['100px', '100px', '100px', '100px']
-      #css_class: fullscreenb
+        padding: ['100px', '200px', '100px', '200px']
+      #css_class: fullscreen
 ---
