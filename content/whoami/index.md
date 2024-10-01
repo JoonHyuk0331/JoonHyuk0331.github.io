@@ -20,8 +20,11 @@ sections:
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: false
-      show_role: false
+      show_interests: true
+      show_role: true
       show_social: true
-      show_goals: true
+      show_education: true
+      show_languages: true
+      show_certifications: true
+      show_goals: true  
 ---
