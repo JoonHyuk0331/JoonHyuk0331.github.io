@@ -22,7 +22,7 @@ sections:
       text: |-
         <br> <span style="font-size:95%">I am living in 한빛관 of Chonbuk National University.</span> <br>
       email: joonlife0901@gmail.com
-      phone: +82-63-270-2406
+      github: https://github.com/JoonHyuk0331
       address:
         street: 전북대학교 한빛관
         city: 전주시
