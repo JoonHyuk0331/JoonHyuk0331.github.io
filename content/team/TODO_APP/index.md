@@ -9,7 +9,8 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: expected to graduate at 2026
-      subtitle: JBNU
-      text: computer engineering
+      title: TODO APP project
+      subtitle: .
+      text: I am creating a todoapp using the website creation reference book
+      https://wikidocs.net/book/7601.
 ---
