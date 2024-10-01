@@ -2,6 +2,7 @@
 # Page title
 title: cpu web programing
 # Page type - we want a landing page (such as a homepage)
+date: '2023-12-01' # 원하는 날짜로 변경
 
 # Your landing page sections - add as many different content blocks as you like
 sections:
@@ -9,7 +10,7 @@ sections:
     id: section-1
     content:
       title: cpu web programing
-      date: '2023-12-01' # 원하는 날짜로 변경
+      
       subtitle: .
       text: We created a club homepage website with club members.
 

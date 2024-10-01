@@ -1,6 +1,7 @@
 ---
 # Page title
 title: cpu web programing rebuild
+date: '2024-09-01' # 원하는 날짜로 변경
 # Page type - we want a landing page (such as a homepage)
 
 
@@ -10,7 +11,7 @@ sections:
     id: section-1
     content:
       title: cpu web programing rebuild
-      date: '2024-9-01' # 원하는 날짜로 변경
+      
       subtitle: .
       text: We recreated a club homepage website with club members using rest api and react.
 

@@ -1,6 +1,7 @@
 ---
 # Page title
 title: TODO APP project
+date: '2023-10-10' # 원하는 날짜로 변경
 # Page type - we want a landing page (such as a homepage)
 
 # Your landing page sections - add as many different content blocks as you like
@@ -9,7 +10,7 @@ sections:
     id: section-1
     content:
       title: TODO APP project
-      date: '2023-10-10' # 원하는 날짜로 변경
+      
       subtitle: .
       text: I am creating a todoapp using the website creation reference book https://wikidocs.net/book/7601.
 
