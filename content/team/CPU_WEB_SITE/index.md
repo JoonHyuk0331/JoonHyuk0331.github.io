@@ -9,6 +9,7 @@ sections:
     id: section-1
     content:
       title: cpu web programing
+      date: '2023-12-01' # 원하는 날짜로 변경
       subtitle: .
       text: We created a club homepage website with club members.
 
