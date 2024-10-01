@@ -18,10 +18,10 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    org_name: 'joonhyuk kim'
+    description: '김준혁을 소개하는 웹사이트입니다.'
     twitter: 'GetResearchDev'
-    og_image: 'images\ogicon.png' # 여기에 대표 이미지 경로 추가
+    og_image: 'static\images\ogicon.png'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
