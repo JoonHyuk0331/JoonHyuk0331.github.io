@@ -11,6 +11,5 @@ sections:
     content:
       title: TODO APP project
       subtitle: .
-      text: I am creating a todoapp using the website creation reference book
-      https://wikidocs.net/book/7601.
+      text: I am creating a todoapp using the website creation reference book https://wikidocs.net/book/7601.
 ---
