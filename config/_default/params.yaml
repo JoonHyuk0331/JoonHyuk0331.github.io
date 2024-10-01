@@ -18,8 +18,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: 'joonhyuk kim'
-    description: '김준혁을 소개하는 웹사이트입니다.'
+    org_name: '김준혁'
+    description: '김준혁 in Jeonbuk National Univ.'
     twitter: 'GetResearchDev'
     og_image: 'static\images\ogicon.png'
   analytics:
