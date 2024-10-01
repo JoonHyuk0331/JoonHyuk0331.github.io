@@ -15,7 +15,7 @@ role: Student of Computer engineering
 # Organizations/Affiliations
 organizations:
   - name: JeonBuk University
-    url: 'https://jbnu.macs.or.kr/'
+    url: 'https://www.jbnu.ac.kr/kor/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: studying web,computer science,algoritm
@@ -24,6 +24,9 @@ interests:
   - Artificial Intelligence
   - Computational Linguistics
 
+goal:
+  - backend web programmer
+  
 education:
   courses:
     - course: Student in Artificial Intelligence
