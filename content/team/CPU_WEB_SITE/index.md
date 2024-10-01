@@ -12,7 +12,7 @@ sections:
       title: cpu web programing
       subtitle: .
       text: We created a club homepage website with club members.
-      design:
+    design:
       columns: '1'
       background:
         image: 
@@ -25,5 +25,5 @@ sections:
           text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
-      #css_class: fullscreen
+      css_class: fullscreen
 ---
