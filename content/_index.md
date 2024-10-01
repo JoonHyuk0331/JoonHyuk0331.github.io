@@ -22,7 +22,6 @@ sections:
       text: |-
         <br> <span style="font-size:95%">I am living in 한빛관 of Chonbuk National University.</span> <br>
       email: joonlife0901@gmail.com
-      github: https://github.com/JoonHyuk0331
       address:
         street: 전북대학교 한빛관
         city: 전주시
@@ -34,11 +33,11 @@ sections:
         latitude: '35.851123'
         longitude: '127.128695'
       directions: 
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
+      contact_links:
+        - icon: github
+          icon_pack: fas
+          name: github
+          link: 'https://github.com/JoonHyuk0331'
     
       # Automatically link email and phone or display as text?
       autolink: true
