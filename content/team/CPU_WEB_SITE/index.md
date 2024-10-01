@@ -22,7 +22,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: cpumain.jpg
+          filename: cpumain.png
           filters:
             brightness: 1
           parallax: false
