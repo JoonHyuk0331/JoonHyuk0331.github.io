@@ -12,11 +12,17 @@ sections:
       title: cpu web programing
       subtitle: .
       text: We created a club homepage website with club members.
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
     design:
       columns: '1'
       background:
         image: 
-          filename: cpumain.png
+          filename: cpumain.jpg
           filters:
             brightness: 1
           parallax: false
