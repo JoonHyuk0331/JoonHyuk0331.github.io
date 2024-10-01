@@ -15,13 +15,9 @@ sections:
         <br>
         -short introduce-
         I am a student studying computer science and am interested in web programming.
-      buttons:
-        - text: Download Résumé
-          url: /uploads/joon_resume.pdf  # 경로 확인
-          style: primary  # 버튼 스타일(테마에서 지원하는 경우)
       cta:
-        label: Get Started
-        url: https://wowchemy.com/templates/
+        label: Download Résumé
+        url: /uploads/joon_resume.pdf
         #icon_pack: fas
         #icon: download
       # Optionally, add an alternative CTA link
