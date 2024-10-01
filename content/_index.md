@@ -37,7 +37,8 @@ sections:
         - icon: github
           icon_pack: fas
           name: github
-          link: 'https://github.com/JoonHyuk0331'
+          link: https://github.com/JoonHyuk0331
+          
     
       # Automatically link email and phone or display as text?
       autolink: true
