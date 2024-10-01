@@ -10,7 +10,7 @@ sections:
       title: |
         JoonHyuk Kim
       image:
-        filename: jjj.jpg
+        filename: webmypic.jpg
       text: |
         <br>
         -short introduce-
