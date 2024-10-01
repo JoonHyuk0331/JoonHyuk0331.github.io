@@ -6,7 +6,7 @@ type: landing
 
 # Your landing page sections - add as many different content blocks as you like
 sections:
-  - block: markdown
+  - block: collection
     id: section-1
     content:
       title: cpu web programing rebuild
