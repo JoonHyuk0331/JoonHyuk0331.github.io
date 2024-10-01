@@ -1,6 +1,6 @@
 ---
 # Page title
-title: My page
+title: cpu web programing rebuild
 # Page type - we want a landing page (such as a homepage)
 type: landing
 
@@ -12,4 +12,18 @@ sections:
       title: cpu web programing rebuild
       subtitle: .
       text: We recreated a club homepage website with club members using rest api and react.
+      design:
+      columns: '1'
+      background:
+        image: 
+          filename: cpumainre.png
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      #css_class: fullscreen
 ---

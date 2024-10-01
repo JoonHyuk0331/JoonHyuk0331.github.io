@@ -1,6 +1,6 @@
 ---
 # Page title
-title: My page
+title: TODO APP project
 # Page type - we want a landing page (such as a homepage)
 type: landing
 
@@ -12,4 +12,18 @@ sections:
       title: TODO APP project
       subtitle: .
       text: I am creating a todoapp using the website creation reference book https://wikidocs.net/book/7601.
+      design:
+      columns: '1'
+      background:
+        image: 
+          filename: todoapp.png
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      #css_class: fullscreen
 ---
