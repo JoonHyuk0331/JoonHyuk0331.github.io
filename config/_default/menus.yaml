@@ -8,61 +8,71 @@ main:
   - name: Introduce
     url: introduce
     identifier: introduce
-    weight: 10
+    weight: 100
   - name: Who am I
     url: whoami
     parent: introduce
+    weight: 110
   - name: Hobby
     url: hobby
     parent: introduce
+    weight: 120
 
   #Skill
   - name: Skill
     url: skill
     identifier: skill
-    weight: 20
+    weight: 200
   - name: Framework
     url: framework
     parent: skill
+    weight: 210
   - name: Programing Language
     url: programing_language
     parent: skill
+    weight: 220
 
   #Experience
   - name: Experience
     url: experience
     identifier: experience
-    weight: 30
+    weight: 300
   - name: Degree
     url: degree
     parent: experience
+    weight: 310
   - name: Work
     url: work
     parent: experience
+    weight: 320
   
   #Project
   - name: Project
     url: project
     identifier: project
-    weight: 40
+    weight: 400
   - name: Solo
     url: solo
     parent: project
+    weight: 410
   - name: Team
     url: team
     parent: project
+    weight: 420
 
   #License
   - name: License
     url: license
     identifier: license
-    weight: 50
+    weight: 500
   - name: IT
     url: it
     parent: license
+    weight: 510
   - name: Language
     url: language
     parent: license
+    weight: 520
 
 
   #- name: Tour
