@@ -165,7 +165,7 @@ sections:
       columns: '2'
       background:
         # Choose a color such as from https://html-color-codes.info
-        color: 'navy'
+        color: '#BFFF00'
         # Text color (true=light, false=dark, or remove for the dynamic theme color).
         text_color_light: true
 
@@ -187,6 +187,38 @@ sections:
       design:
         view: community/custom_card
         columns: '2'
+        background:
+        # Choose a color such as from https://html-color-codes.info
+        color: '#3ADF00'
+        # Text color (true=light, false=dark, or remove for the dynamic theme color).
+        text_color_light: true
+      advanced:
+        css_style: "text-align: center;"
+
+
+  - block: collection
+    content:
+      title: Latest Solo Project
+      subtitle:
+      text:
+      count: 3
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: team
+      design:
+        view: grid
+        columns: '2'
+        background:
+        # Choose a color such as from https://html-color-codes.info
+        color: '#04B45F'
+        # Text color (true=light, false=dark, or remove for the dynamic theme color).
+        text_color_light: true
       advanced:
         css_style: "text-align: center;"
 

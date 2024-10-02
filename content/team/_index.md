@@ -2,7 +2,7 @@
 title: team project list
 
 # Listing view
-view: grid
+view: citation
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
