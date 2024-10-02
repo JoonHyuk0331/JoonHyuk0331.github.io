@@ -6,6 +6,6 @@ type: landing
 sections:
   - block: skills
     content:
-      title: Skills & Hobbies
+      title: Hobbies
       username: admin
 ---
