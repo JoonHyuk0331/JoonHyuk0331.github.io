@@ -212,7 +212,7 @@ sections:
       order: desc
       page_type: team
       design:
-        view: grid
+        view: card
         columns: '2'
         background:
         # Choose a color such as from https://html-color-codes.info
