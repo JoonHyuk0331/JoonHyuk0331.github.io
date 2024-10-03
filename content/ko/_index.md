@@ -161,7 +161,7 @@ sections:
       order: desc
       page_type: work
     design:
-      view: card
+      view: community/custom_card
       columns: '2'
       background:
         # Choose a color such as from https://html-color-codes.info

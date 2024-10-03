@@ -1,0 +1,93 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in
+main:
+
+  #Introduce
+  - name: 소개
+    url: introduce
+    identifier: introduce
+    weight: 100
+  - name: 자기소개
+    url: whoami
+    parent: introduce
+    weight: 110
+  - name: Hobby
+    url: hobby
+    parent: introduce
+    weight: 120
+
+  #Skill
+  - name: Skill
+    url: skill
+    identifier: skill
+    weight: 200
+  - name: Framework
+    url: framework
+    parent: skill
+    weight: 210
+  - name: Programing Language
+    url: programing_language
+    parent: skill
+    weight: 220
+
+  #Experience
+  - name: Experience
+    url: experience
+    identifier: experience
+    weight: 300
+  - name: Degree
+    url: degree
+    parent: experience
+    weight: 310
+  - name: Work
+    url: work
+    parent: experience
+    weight: 320
+  
+  #Project
+  - name: Project
+    url: project
+    identifier: project
+    weight: 400
+  - name: Solo
+    url: solo
+    parent: project
+    weight: 410
+  - name: Team
+    url: team
+    parent: project
+    weight: 420
+
+  #License
+  - name: License
+    url: license
+    identifier: license
+    weight: 500
+  - name: IT
+    url: it
+    parent: license
+    weight: 510
+  - name: Language
+    url: language
+    parent: license
+    weight: 520
+
+
+  #- name: Tour
+  #  url: tour
+  #  weight: 10
+  #- name: News
+  #  url: post
+  #  weight: 20
+  #
+  #- name: Events
+  #  url: event
+  #  weight: 40
+  #- name: Publications
+  #  url: publication
+  #  weight: 50
+  #- name: Contact
+  #  url: contact
+  #  weight: 60
