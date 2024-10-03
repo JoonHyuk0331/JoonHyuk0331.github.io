@@ -10,6 +10,20 @@ baseURL: 'https://joonhyuk0331.github.io/' # Website URL
 ## LANGUAGE
 ############################
 
+languages : 
+  ko:
+    languageCode : ko
+    contentDir : content/ko
+    title : ""
+    params :
+      description : "준혁 웹사이트"
+  en: 
+    languageCode : en
+    contentDir : content/en
+    title : ""
+    params : 
+      description : "Joonhyuk Website"
+
 defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
