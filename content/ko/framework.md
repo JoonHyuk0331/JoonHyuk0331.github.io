@@ -9,13 +9,13 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: Java Spring
+      title: 자바스프링
       subtitle: .
-      text: Simple Website making is possible using java spring.
+      text: 자바스프링 라이브러리를 통해 간단한 웹사이트를 만들수있습니다
   - block: markdown
     id: section-2
     content:
       title: Selenium
       subtitle: .
-      text: web crolling is possible using Selelnium with java.
+      text: 셀레늄 라이브러리를 통해 간단한 웹 크롤링 프로그램을 만들수있습니다
 ---

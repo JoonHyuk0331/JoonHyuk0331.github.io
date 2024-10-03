@@ -9,7 +9,7 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: TOEIC
+      title: 토익
       subtitle: .
-      text: 765
+      text: 765 더열심히할게요
 ---

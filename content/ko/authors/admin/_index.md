@@ -1,6 +1,6 @@
 ---
 # Display name
-title: JoonHyuk KIM
+title: 김준혁
 
 # Full Name (for SEO)
 first_name: 김
@@ -33,9 +33,9 @@ education:
 
 languages:
   - language: 한국어
-    proficiency: Native
-  - language: English
-    proficiency: Fluent
+    proficiency: 원어민그자체
+  - language: 영어
+    proficiency: 쫌함
 
 certifications:
   - certification: SQLD
@@ -53,19 +53,19 @@ skills:
   #      percent: 30
   #      icon: devicon/C
 
-  - name: Hobbies
+  - name: 취미생활
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: 등산
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: 고양이랑놀기
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: 사진찍기
         description: ''
         percent: 80
         icon: camera

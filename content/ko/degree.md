@@ -9,7 +9,7 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: expected to graduate at 2026
-      subtitle: JBNU
-      text: computer engineering
+      title: 2026년 졸업예정
+      subtitle: 전북대학교
+      text: 컴퓨터공학
 ---

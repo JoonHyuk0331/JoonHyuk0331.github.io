@@ -12,7 +12,7 @@ sections:
       title: TODO APP project
       
       subtitle: .
-      text: I am creating a todoapp using the website creation reference book https://wikidocs.net/book/7601.
+      text: 웹사이트 제작 도서를 참고하여 todo앱을 만들었습니다 https://wikidocs.net/book/7601.
 
   - block: markdown
     content:

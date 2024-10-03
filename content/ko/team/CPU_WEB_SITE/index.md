@@ -9,10 +9,10 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: cpu web programing
+      title: cpu웹사이트 제작
       
       subtitle: .
-      text: We created a club homepage website with club members.
+      text: 동아리 홈페이지를 만들었습니다
 
   - block: markdown
     content:

@@ -9,7 +9,7 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: SQL developer
+      title: SQL 개발자
       subtitle: .
-      text: on setember 20 2024
+      text: 9월 20일 2024년 취득
 ---

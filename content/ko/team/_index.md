@@ -1,5 +1,5 @@
 ---
-title: team project list
+title: 팀프로젝트 리스트
 
 # Listing view
 view: citation

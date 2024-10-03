@@ -11,11 +11,11 @@ sections:
     content:
       title: Java
       subtitle: .
-      text: Simple programming is possible using java.
+      text: 자바로 심플한 프로그래밍이 가능합니다
   - block: markdown
     id: section-2
     content:
       title: C++
       subtitle: .
-      text: Simple programming is possible using C++.
+      text: C++로 심플한 프로그래밍이 가능합니다
 ---

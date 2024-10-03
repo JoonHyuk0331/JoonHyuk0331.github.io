@@ -1,5 +1,5 @@
 ---
-title: solo project list
+title: 개인 프로젝트 리스트
 
 # Listing view
 view: community/custom_compact

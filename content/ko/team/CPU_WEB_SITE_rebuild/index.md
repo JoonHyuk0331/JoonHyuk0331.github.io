@@ -10,10 +10,10 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: cpu web programing rebuild
+      title: 개선된cpu웹사이트 제작
       
       subtitle: .
-      text: We recreated a club homepage website with club members using rest api and react.
+      text: 동아리 홈페이지를 만들었습니다 rest api적용.
 
   - block: markdown
     content:
