@@ -44,11 +44,6 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-    #마우스 호버버튼추가
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
 
   
     show_language: true
