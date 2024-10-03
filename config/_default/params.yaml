@@ -16,12 +16,12 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
-    local_business_type: ''
+    site_type: Website
+    local_business_type: 'EducationalOrganization'
     org_name: '김준혁'
     description: '김준혁 in Jeonbuk National Univ.'
     twitter: 'GetResearchDev'
-    og_image: 'static\images\ogicon.png'
+    og_image: 'static\images\icon.png'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
