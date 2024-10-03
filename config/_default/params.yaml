@@ -51,7 +51,7 @@ header:
       url: "https://hugoblox.com/templates/"
 
   
-    show_language: false
+    show_language: true
     show_theme_chooser: true
     show_day_night: true
     show_search: true
