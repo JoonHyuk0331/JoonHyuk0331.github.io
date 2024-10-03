@@ -10,29 +10,29 @@ last_name: 준혁
 superuser: true
 
 # Role/position
-role: Student of Computer engineering
+role: 컴퓨터공학과 학생
 
 # Organizations/Affiliations
 organizations:
-  - name: JeonBuk University
+  - name: 전북대학교
     url: 'https://www.jbnu.ac.kr/kor/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: studying web,computer science,algoritm
+bio: 웹,컴퓨터과학,알고리즘 공부
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
+  - 인공지능
+  - 전산언어학
 
   
 education:
   courses:
-    - course: Student in Artificial Intelligence
-      institution: JeonBuk University
+    - course: 컴퓨터인공지능학부
+      institution: 전북대학교
       year: ~2026
 
 languages:
-  - language: Korean
+  - language: 한국어
     proficiency: Native
   - language: English
     proficiency: Fluent
