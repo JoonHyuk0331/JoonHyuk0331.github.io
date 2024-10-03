@@ -210,7 +210,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: team
+      page_type: solo
     design:
       view: card
       columns: '2'
