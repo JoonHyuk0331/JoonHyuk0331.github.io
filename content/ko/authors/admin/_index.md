@@ -109,4 +109,4 @@ user_groups:
 
 ---
 
-hello. I want to be a Backend Web Programmer
+백엔드 웹 프로그래머를 목표로 공부중입니다
