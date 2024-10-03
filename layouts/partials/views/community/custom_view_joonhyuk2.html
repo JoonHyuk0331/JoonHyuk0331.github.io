@@ -1,0 +1,90 @@
+{{ $item := .item }}
+
+{{/* Dynamic view adjusts to content type. */}}
+{{ $show_authors_only := false }}{{/* Show authors only or full metadata? */}}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+{{ if eq $item.Type "event" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "publication" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "project" }}
+  {{ $show_authors_only = true }}
+{{ end }}
+
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Params.abstract }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+<div class="card" style="display: flex; flex-direction: row; border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+  <!-- Image section -->
+  <div class="card-image" style="flex-shrink: 0; width: 150px; height: auto;">
+    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+    {{ with $resource }}
+      {{ $image := .Resize "150x150" }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <a href="{{$link}}" {{ $target | safeHTMLAttr }} style="display: block; height: 100%;">
+        <img src="{{ $image.RelPermalink }}" style="width: 100%; height: 100%; object-fit: cover;" alt="{{ $item.Title }}" loading="lazy">
+      </a>
+    {{ end }}
+  </div>
+
+  <!-- Text section -->
+  <div class="card-content" style="padding: 15px; flex-grow: 1;">
+    <!-- Title -->
+    <div class="article-title" style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;">
+      <a href="{{$link}}" {{ $target | safeHTMLAttr }} style="color: #333; text-decoration: none;">{{ $item.Title }}</a>
+    </div>
+
+    <!-- Summary -->
+    {{ with $summary }}
+    <div class="article-summary" style="font-size: 0.9em; color: #555; margin-bottom: 10px;">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link" style="color: inherit; text-decoration: none;">
+        {{ . }}
+      </a>
+    </div>
+    {{ end }}
+
+    <!-- Metadata -->
+    <div class="article-metadata" style="font-size: 0.8em; color: #777;">
+      {{ if eq $item.Type "event" }}
+      <div style="margin-bottom: 5px;">
+        <span>{{ partial "functions/get_event_dates" $item }}</span>
+        {{ with $item.Params.location }}
+        <span class="middot-divider" style="margin: 0 5px;">•</span>
+        <span>{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ if and $show_authors_only $item.Params.authors }}
+      <div style="margin-bottom: 5px;">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ else if not $show_authors_only }}
+      <div style="margin-bottom: 5px;">
+        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Attachments -->
+    {{ if $has_attachments }}
+    <div class="btn-links" style="margin-top: 10px;">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+    {{ end }}
+  </div>
+</div>

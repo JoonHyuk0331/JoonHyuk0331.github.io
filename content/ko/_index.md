@@ -161,7 +161,7 @@ sections:
       order: desc
       page_type: work
     design:
-      view: community/custom_card
+      view: community/custom_view_joonhyuk1
       columns: '2'
       background:
         # Choose a color such as from https://html-color-codes.info
@@ -185,7 +185,7 @@ sections:
       order: desc
       page_type: team
     design:
-      view: community/custom_card
+      view: community/custom_view_joonhyuk2
       columns: '2'
       background:
         # Choose a color such as from https://html-color-codes.info
