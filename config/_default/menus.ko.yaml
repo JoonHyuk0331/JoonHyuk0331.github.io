@@ -13,63 +13,63 @@ main:
     url: whoami
     parent: introduce
     weight: 110
-  - name: Hobby
+  - name: 취미
     url: hobby
     parent: introduce
     weight: 120
 
   #Skill
-  - name: Skill
+  - name: 스킬
     url: skill
     identifier: skill
     weight: 200
-  - name: Framework
+  - name: 프레임워크
     url: framework
     parent: skill
     weight: 210
-  - name: Programing Language
+  - name: 프로그래밍 언어
     url: programing_language
     parent: skill
     weight: 220
 
   #Experience
-  - name: Experience
+  - name: 경험
     url: experience
     identifier: experience
     weight: 300
-  - name: Degree
+  - name: 학위
     url: degree
     parent: experience
     weight: 310
-  - name: Work
+  - name: 작업물
     url: work
     parent: experience
     weight: 320
   
   #Project
-  - name: Project
+  - name: 프로젝트
     url: project
     identifier: project
     weight: 400
-  - name: Solo
+  - name: 개인프로젝트
     url: solo
     parent: project
     weight: 410
-  - name: Team
+  - name: 팀프로젝트
     url: team
     parent: project
     weight: 420
 
   #License
-  - name: License
+  - name: 자격증
     url: license
     identifier: license
     weight: 500
-  - name: IT
+  - name: IT자격증
     url: it
     parent: license
     weight: 510
-  - name: Language
+  - name: 어학자격증
     url: language
     parent: license
     weight: 520
