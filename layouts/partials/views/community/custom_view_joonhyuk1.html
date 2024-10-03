@@ -19,7 +19,7 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); overflow: hidden; margin-bottom: 20px;">
+<div class="card" style="background-color: #455048; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); overflow: hidden; margin-bottom: 20px;">
   {{ with $resource }}
   {{ $image := .Resize "550x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
