@@ -193,7 +193,7 @@ sections:
         # Text color (true=light, false=dark, or remove for the dynamic theme color).
         text_color_light: true
     advanced:
-      css_style: "text-align: center;"
+      css_style: "text-align: justify;"
 
 
   - block: collection
@@ -220,7 +220,7 @@ sections:
         # Text color (true=light, false=dark, or remove for the dynamic theme color).
         text_color_light: true
     advanced:
-      css_style: "text-align: center;"
+      css_style: "text-align: justify;"
 
 
 ---
