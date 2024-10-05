@@ -12,7 +12,7 @@ sections:
       title: TOEIC
       subtitle: .
       text: |
-      765
-      
-      ![TOEIC Image](path/to/your/image.jpg)
+        765
+        
+        ![TOEIC Image](path/to/your/image.jpg)
 ---
