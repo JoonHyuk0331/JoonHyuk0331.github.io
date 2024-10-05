@@ -13,6 +13,11 @@ sections:
       subtitle: .
       text: |
         765
-        
-        ![TOEIC Image](/assets/media/toeic.jpg)
+      image:
+        placement: 1
+        caption: 'Photo by [Geo](https://github.com/gcushen/)'
+        focal_point: 'Center'
+        preview_only: false
+        alt_text: An optional description of the image for screen readers.
+        # filename: my-image.jpg  # Uncomment to load an image from `assets/media/` instead.
 ---
