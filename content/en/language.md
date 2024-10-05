@@ -14,5 +14,5 @@ sections:
       text: |
         765
         
-        ![TOEIC Image](assets\media\toeic.jpg)
+        ![TOEIC Image](/assets/media/toeic.jpg)
 ---
