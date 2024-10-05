@@ -11,5 +11,8 @@ sections:
     content:
       title: TOEIC
       subtitle: .
-      text: 765
+       text: |
+        765
+        
+        ![TOEIC Image](assets\media\toeic.jpg)
 ---
