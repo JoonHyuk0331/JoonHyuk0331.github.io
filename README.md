@@ -31,9 +31,11 @@
      ```bash
      git clone <repository_url>
      cd HotflixDev```
-  2. 필요한 의존성을 설치합니다:
+  2. 필요한 의존성을 설치합니다
   ```npm install```
-  3. 개발 서버를 실행합니다
+  3. ⚠중요⚠ lucide-react 라이브러리 설치
+  ```npm install lucide-react```
+  4. 개발 서버를 실행합니다
   ```npm start```
 
 ## 4. 프로젝트 폴더 구조
