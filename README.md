@@ -1,5 +1,5 @@
 # HotflixDev 프로젝트
-
+![화면 캡처 2024-11-21 142514](https://github.com/user-attachments/assets/c3c15b6c-93d3-4e07-bbe0-c5979ec104e2)
 ## 1. 프로젝트 개요
 
 **HotflixDev**는 영화 관련 웹 애플리케이션으로, 사용자가 다양한 영화 기능을 탐색하고 관리할 수 있습니다. 최신 영화, 인기 영화 등 다양한 영화 정보를 제공하며, 사용자는 자신만의 영화 위시리스트를 만들고, 영화 필터링 기능을 통해 원하는 영화를 찾아볼 수 있습니다.
@@ -76,3 +76,5 @@ HotflixDev
       ├─ index.js              # React 앱 진입점
       └─ reportWebVitals.js    # 성능 보고 설정
 ```
+## 5. gitflow 전략 적용
+![화면 캡처 2024-11-21 142254](https://github.com/user-attachments/assets/d5e5a2bf-b49e-42c6-87ef-692fe8cb09cb)
